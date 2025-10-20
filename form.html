@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="form.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Cactus+Classical+Serif&family=Comfortaa:wght@300..700&family=Lobster&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Play:wght@400;700&family=Playwrite+DE+Grund+Guides&family=SUSE+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+    </style>
+</head>
+
+<body>
+    <header>
+        <header>
+            <img src="images/banan.png" alt="Логотип банана" width="100">
+            <h1>Блог банана</h1>
+            <nav>
+                <a href="index.html">Головна сторінка</a>
+                <a href="fact.html">Цікаві факти</a>
+                <a href="form.html">Донат</a>
+            </nav>
+        </header>
+
+    </header>
+    <main class="bodee">
+        <nav class="side-menu">
+            <ul>
+                <li>
+                    <a href="index.html">
+                        <span class="menu-title">Головна</span>
+                        <span class="dot"></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="fact.html">
+                        <span class="menu-title">Факти</span>
+                        <span class="dot"></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="form.html">
+                        <span class="menu-title">Донат</span>
+                        <span class="dot"></span>
+                    </a>
+                </li>
+
+            </ul>
+        </nav>
+        </header>
+        <form class="form">
+            <h1 class="form_title">Пожертвування на банани:</h1>
+            <div class="form_group">
+                <input class="form_input" placeholder=".">
+                <label class="form_label">Email</label>
+            </div>
+            <div class="form_group">
+                <input class="form_input" placeholder=".">
+                <label class="form_label">Phone</label>
+            </div>
+            <div class="form_group">
+                <input class="form_input" type="number" placeholder=".">
+                <label class="form_label">Пожертвування (₴)</label>
+            </div>
+            <button onclick="confirm('Ви впевнені?')" class="form_button">Дякую!</button>
+        </form>
+        <div class="btn"><button>Поділитися</button></div>
+    </main>
+    <footer class="foo">
+        <p>© 2025 Блог Банана</p>
+    </footer>
+</body>
+
+</html>
