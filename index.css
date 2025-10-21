@@ -219,6 +219,16 @@ p::after {
     z-index: -1;
 }
 
+ .photo1, .photo2, .photo3 {
+        width: 80%;
+        left: 0 !important;
+        top: 0 !important;
+ }
+    
+    .decor1, .decor2 {
+        display: none;
+}
+
 .decor1, .decor2 {
     position: absolute;
     width: 120px;
@@ -263,15 +273,5 @@ footer {
 @media screen and (max-width: 900px) {
     main {
         flex-direction: column;
-    }
-    
-    .photo1, .photo2, .photo3 {
-        width: 80%;
-        left: 0 !important;
-        top: 0 !important;
-    }
-    
-    .decor1, .decor2 {
-        display: none;
     }
 }
